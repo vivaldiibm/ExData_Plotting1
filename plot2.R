@@ -7,3 +7,4 @@ mydata <- electric[electric$Date >= as.Date("2007-02-01") & electric$Date <= as.
 
 # plot2 #
 plot(mydata$datetime, as.numeric(as.character(mydata$Global_active_power)), type = "l", ylab = "Global Active Power (kilowatts)")
+dev.off()
