@@ -19,3 +19,4 @@ legend ("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
         lty = 1, col = c("black", "red", "blue"), lwd=2,cex=0.7)
 
 plot (mydata$datetime, mydata$Global_reactive_power, type = "l", xlab = "datetime", ylab ="Global_Reactive_Power")
+dev.off()
